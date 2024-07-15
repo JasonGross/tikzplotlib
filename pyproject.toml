@@ -6,11 +6,14 @@ build-backend = "flit_core.buildapi"
 profile = "black"
 
 [project]
-name = "tikzplotlib"
-authors = [{name = "Nico Schlömer", email = "nico.schloemer@gmail.com"}]
+name = "tikzplotlib-patched"
+authors = [
+  { name = "Nico Schlömer", email = "nico.schloemer@gmail.com" },
+  { "name" = "Jason Gross", "email" = "jgross@mit.edu" },
+]
 description = "Convert matplotlib figures into TikZ/PGFPlots"
 readme = "README.md"
-license = {file = "LICENSE"}
+license = { file = "LICENSE" }
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "Framework :: Matplotlib",
@@ -28,19 +31,15 @@ classifiers = [
 keywords = ["latex", "tikz", "matplotlib", "graphics"]
 dynamic = ["version"]
 requires-python = ">=3.7"
-dependencies = [
-  "matplotlib >= 1.4.0",
-  "numpy",
-  "Pillow",
-  "webcolors",
-]
+dependencies = ["matplotlib >= 1.4.0", "numpy", "Pillow", "webcolors"]
 
 [project.optional-dependencies]
-dev = [
-  "seaborn"
-]
+dev = ["seaborn"]
 
 [project.urls]
 Code = "https://github.com/nschloe/tikzplotlib"
 Issues = "https://github.com/nschloe/tikzplotlib/issues"
 Funding = "https://github.com/sponsors/nschloe"
+
+[tool.flit.module]
+name = "tikzplotlib"
