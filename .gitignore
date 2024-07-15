@@ -12,3 +12,4 @@ build/
 .tox/
 mytikz.tex
 test.tex
+.venv/
