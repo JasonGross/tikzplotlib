@@ -11,7 +11,7 @@ authors = [
   { name = "Nico Schlömer", email = "nico.schloemer@gmail.com" },
   { "name" = "Jason Gross", "email" = "jgross@mit.edu" },
 ]
-description = "Convert matplotlib figures into TikZ/PGFPlots"
+description = "Convert matplotlib figures into TikZ/PGFPlots.  Version of tikzplotlib patched with additional patches."
 readme = "README.md"
 license = { file = "LICENSE" }
 classifiers = [

@@ -20,13 +20,15 @@
 [![LGTM](https://img.shields.io/lgtm/grade/python/github/nschloe/tikzplotlib.svg?style=flat-square)](https://lgtm.com/projects/g/nschloe/tikzplotlib)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/psf/black)
 
-This is tikzplotlib, a Python tool for converting matplotlib figures into
+This is ***a patched version of*** tikzplotlib, a Python tool for converting matplotlib figures into
 [PGFPlots](https://www.ctan.org/pkg/pgfplots) ([PGF/TikZ](https://www.ctan.org/pkg/pgf))
 figures like
 
 ![](https://nschloe.github.io/tikzplotlib/example.png)
 
 for native inclusion into LaTeX or ConTeXt documents.
+
+This version contains patches from [`JasonGross/tikzplotlib/patched`](https://github.com/JasonGross/tikzplotlib/tree/patched).
 
 The output of tikzplotlib is in [PGFPlots](https://github.com/pgf-tikz/pgfplots/), a TeX
 library that sits on top of [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) and
