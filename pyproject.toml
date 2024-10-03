@@ -37,8 +37,8 @@ dependencies = ["matplotlib >= 1.4.0", "numpy", "Pillow", "webcolors"]
 dev = ["seaborn"]
 
 [project.urls]
-Code = "https://github.com/JasonGross/tikzplotlib-patched"
-Issues = "https://github.com/JasonGross/tikzplotlib-patched/issues"
+Code = "https://github.com/JasonGross/tikzplotlib"
+Issues = "https://github.com/JasonGross/tikzplotlib/issues"
 Funding = "https://github.com/sponsors/nschloe"
 
 [tool.flit.module]
